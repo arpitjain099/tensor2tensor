@@ -4,10 +4,6 @@ on:
     branches: [master, main]
   pull_request:
     branches: [master, main]
-  paths-ignore:
-    - "**.md"
-    - "**.txt"
-    - "docs/**"
   schedule:
     - cron: '0 8 * * *'
 
