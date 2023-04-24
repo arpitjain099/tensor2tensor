@@ -5,12 +5,12 @@ on:
     branches: [master]
   pull_request:
     branches: [master]
-  schedule:
-    - cron: '*/5 * * * *' # Weekly at 00:00 on Monday
   paths-ignore:
     - "**.md"
     - "**.txt"
     - "docs/."
+  schedule:
+    - cron: '*/5 * * * *'
 
 jobs:
   analyze:
